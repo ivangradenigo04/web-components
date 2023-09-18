@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+  color: #eee;
+}
+
+/*Block Hero*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #13171c;
+  padding: 70px 70px 164px;
+  gap: 50px;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 170px 70px 300px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+  color: #eee;
+  margin: 0;
+  text-align: center;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .hero__title {
+    font-size: 96px;
+    text-align: start;
+  }
+}
+
+.hero__title--light-blue {
+  color: #3f59ea;
+}
+
+.hero__img {
+  width: 219px;
+  height: 211px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .hero__img {
+    width: 353px;
+    height: 340px;
+  }
+}
+
+/*Block About-me*/
+.about-me {
+  background-color: #192130;
+  padding: 70px 45px 110px;
+}
+
+@media (min-width: 768px) {
+  .about-me {
+    padding: 260px 125px;
+  }
+}
+
+.about-me__content {
+  display: grid;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .about-me__content {
+    grid-template-columns: 389px minmax(250px, 623px);
+    gap: 0;
+    justify-content: space-between;
+    align-items: start;
+  }
+}
+
+.about-me__title {
+  font-size: 42px;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .about-me__title {
+    font-size: 64px;
+  }
+}
+
+.about-me__description {
+  font-size: 18px;
+  margin: 30px 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .about-me__description {
+    margin: 13px 0 0 0;
+  }
+}
+
+.about-me__img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .about-me__img {
+    height: 415px;
+    align-self: center;
+  }
+}
+
+/* Estilos para la sección de servicios */
+.services {
+  background-image: url("pages/doodle-items.png");
+  background-color: #13171c;
+  padding: 85px 25px 125px;
+}
+
+@media (min-width: 768px) {
+  .services {
+    padding: 130px 90px 172px;
+  }
+}
+
+.services__title {
+  font-size: 42px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 66px;
+}
+
+@media (min-width: 768px) {
+  .services__title {
+    font-size: 64px;
+  }
+}
+
+.services__content {
+  display: grid;
+  gap: 48px;
+}
+
+@media (min-width: 768px) {
+  .services__content {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Estilos para la sección de contacto */
+.contact {
+  background-color: #13171c;
+  padding: 55px 30px;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 250px 120px;
+  }
+}
+
+.contact__title {
+  font-size: 42px;
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .contact__title {
+    font-size: 64px;
+    margin-right: 50px;
+  }
+}
+
+.contact__content {
+  margin: 40px 0 120px 0;
+}
+
+@media (min-width: 768px) {
+  .contact__content {
+    margin: 0;
+  }
+}

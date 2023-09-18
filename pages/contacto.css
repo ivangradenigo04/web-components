@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+  color: #eee;
+}
+
+/* Estilos para la sección de contacto */
+.contact {
+  background-color: #13171c;
+  padding: 55px 30px;
+}
+
+@media (min-width: 768px) {
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 250px 120px;
+  }
+}
+
+.contact__title {
+  font-size: 42px;
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .contact__title {
+    font-size: 64px;
+    margin-right: 50px;
+  }
+}
+
+.contact__content {
+  margin: 40px 0 120px 0;
+}
+
+@media (min-width: 768px) {
+  .contact__content {
+    margin: 0;
+  }
+}
