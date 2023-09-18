@@ -50,13 +50,13 @@ body {
 .hero__img {
   width: 219px;
   height: 211px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @media (min-width: 768px) {
   .hero__img {
-    width: 353px;
-    height: 340px;
+    width: 320px;
+    height: 320px;
   }
 }
 

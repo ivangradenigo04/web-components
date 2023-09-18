@@ -123,7 +123,7 @@ body {
 
 /* Estilos para la sección de servicios */
 .services {
-  background-image: url("pages/doodle-items.png");
+  background-image: url("doodle-items.png");
   background-color: #13171c;
   padding: 85px 25px 125px;
 }
